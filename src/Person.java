@@ -4,7 +4,7 @@ public class Person {
 
     public Person() {
         name = "CSE";
-        age = 30;
+        age = 21;
     }
     public Person(String name, int age) {
         this.name = name;
@@ -25,5 +25,9 @@ public class Person {
 
     public void setAge(int age) {
         this.age = age;
+    }
+    private String session;
+    public String Session(){
+        session = "22-23";
     }
 }
